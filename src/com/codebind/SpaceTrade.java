@@ -7,6 +7,7 @@ import java.awt.event.ActionListener;
 public class SpaceTrade {
     private JPanel WelcomePanel;
     private JButton WelcomeButton;
+    private JLabel WelcomeSign;
 
     public SpaceTrade() {
         WelcomeButton.addActionListener(new ActionListener() {
