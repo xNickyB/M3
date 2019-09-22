@@ -13,7 +13,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class ConfigScreen extends JFrame implements ActionListener{
-    private JPanel ConfigPanel;
+    private JPanel ConfigPanel = new JPanel(new BorderLayout());
     //private JButton ConfigButton;
     private JLabel Config;
     private JTextField enterName;
