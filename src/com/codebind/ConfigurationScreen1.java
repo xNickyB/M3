@@ -2,12 +2,12 @@ package com.codebind;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
+import java.awt.event.ActionListener;import java.awt.event.ContainerAdapter;
 
 public class ConfigurationScreen1 {
     private JLabel nameLabel;
     private JTextField nameField;
-    private JPanel Panel;
+    public JPanel Panel;
     private JButton hardButton;
     private JButton mediumButton;
     private JButton easyButton;
@@ -16,9 +16,14 @@ public class ConfigurationScreen1 {
     private JTextField fighterAlc;
     private JTextField merchantAlc;
     private JTextField engineerAlc;
+    public static JFrame display;
+    public static JFrame config;
+
+
     private JButton submitPointsButton;
 
-    protected String name;
+
+    //protected String name;
     protected int skill;
     protected int pilotPoints;
     protected int fighterPoints;
@@ -28,6 +33,7 @@ public class ConfigurationScreen1 {
     protected String pilottext;
     protected String engineertext;
     protected String fightertext;
+    protected String name;
 
     public ConfigurationScreen1() {
         easyButton.addActionListener(new ActionListener() {
@@ -35,7 +41,7 @@ public class ConfigurationScreen1 {
             public void actionPerformed(ActionEvent e) {
                 if (easyButton.isSelected()) {
                     skill = 100;
-                    JOptionPane.showMessageDialog(null, "You have 100 points to allocate; Changing difficulty changes point numbers.");
+                    String skillPoints = "You have 100 points to allocate; Changing difficulty changes point numbers.";
                 }
             }
         });
@@ -44,7 +50,7 @@ public class ConfigurationScreen1 {
             public void actionPerformed(ActionEvent e) {
                 if (mediumButton.isSelected()) {
                     skill = 50;
-                    JOptionPane.showMessageDialog(null, "You have 50 points to allocate; Changing difficulty changes point numbers.");
+                    String skillPoints = "You have 50 points to allocate";
                 }
             }
         });
@@ -53,39 +59,44 @@ public class ConfigurationScreen1 {
             public void actionPerformed(ActionEvent e) {
                 if (hardButton.isSelected()) {
                     skill = 15;
-                    JOptionPane.showMessageDialog(null, "You have 15 points to allocate; Changing difficulty changes point numbers.");
+                    String skillPoints = "You have 15 points to allocate";
                 }
             }
         });
         pilotAlc.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                pilottext = pilotAlc.getText();
-                pilotPoints = Integer.parseInt(pilottext);
+                String text = pilotAlc.getText();
+                int pilotPoints = Integer.parseInt(text);
             }
         });
         fighterAlc.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                fightertext = fighterAlc.getText();
-                fighterPoints = Integer.parseInt(fightertext);
+                String text = fighterAlc.getText();
+                int fighterPoints = Integer.parseInt(text);
             }
         });
         merchantAlc.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                merchanttext = merchantAlc.getText();
-                merchantPoints = Integer.parseInt(merchanttext);
+                String text = merchantAlc.getText();
+                int merchantPoints = Integer.parseInt(text);
             }
         });
         engineerAlc.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                engineertext = engineerAlc.getText();
-                engineerPoints = Integer.parseInt(engineertext);
+                String text = engineerAlc.getText();
+                int engineerPoints = Integer.parseInt(text);
             }
         });
-
+        nameField.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                name = nameField.getText();
+            }
+        });
         submitPointsButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -95,10 +106,14 @@ public class ConfigurationScreen1 {
                 } else {
                     JOptionPane.showMessageDialog(null, "Your points did not exceed the number of available points! Good luck in the game.");
                 }
+                display = new JFrame();
+                display.setContentPane(new DisplayScreen().title);
+                display.pack();
+                display.setVisible(true);
+                display.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
             }
         });
     }
-
 
     public static void main(String[] args) {
         JFrame frame = new JFrame("ConfigurationScreen");
@@ -107,10 +122,6 @@ public class ConfigurationScreen1 {
         frame.pack();
         frame.setVisible(true);
 
-
-
     }
-
-
 }
 
