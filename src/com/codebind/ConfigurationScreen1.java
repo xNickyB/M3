@@ -7,7 +7,7 @@ import java.awt.event.ActionListener;
 public class ConfigurationScreen1 {
     private JLabel nameLabel;
     private JTextField nameField;
-    private JPanel Panel;
+    public JPanel Panel;
     private JButton hardButton;
     private JButton mediumButton;
     private JButton easyButton;
@@ -17,8 +17,22 @@ public class ConfigurationScreen1 {
     private JTextField merchantAlc;
     private JTextField engineerAlc;
 
+<<<<<<< Updated upstream
     public String name;
     public int skill;
+=======
+    //protected String name;
+    protected int skill;
+    protected int pilotPoints;
+    protected int fighterPoints;
+    protected int merchantPoints;
+    protected int engineerPoints;
+    protected String merchanttext;
+    protected String pilottext;
+    protected String engineertext;
+    protected String fightertext;
+    protected String name;
+>>>>>>> Stashed changes
 
     public ConfigurationScreen1() {
         easyButton.addActionListener(new ActionListener() {
@@ -74,6 +88,12 @@ public class ConfigurationScreen1 {
             public void actionPerformed(ActionEvent e) {
                 String text = engineerAlc.getText();
                 int engineerPoints = Integer.parseInt(text);
+            }
+        });
+        nameField.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                name = nameField.getText();
             }
         });
     }
