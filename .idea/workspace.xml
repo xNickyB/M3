@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9efee21-ccb2-4c0d-bb4b-dd1f2a775b1f" name="Default Changelist" comment="">
+<<<<<<< Updated upstream
 
       <change afterPath="$PROJECT_DIR$/src/com/codebind/ConfigurationScreen.form" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/com/codebind/ConfigurationScreen.java" afterDir="false" />
@@ -27,6 +28,12 @@
       <change beforePath="$PROJECT_DIR$/src/com/codebind/ConfigurationScreen1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/codebind/ConfigurationScreen1.java" afterDir="false" />
 
 
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/M3/com/codebind/ConfigScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/M3/com/codebind/ConfigScreen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/codebind/ConfigScreen.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/codebind/ConfigScreen.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/codebind/ConfigScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/codebind/ConfigScreen.java" afterDir="false" />
+>>>>>>> Stashed changes
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -176,6 +183,7 @@
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="310" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
@@ -190,8 +198,12 @@
       </list>
     </option>
   </component>
+<<<<<<< Updated upstream
 
   <component name="RunManager" selected="Application.ConfigScreen">
+=======
+  <component name="RunManager" selected="Application.SpaceTrade">
+>>>>>>> Stashed changes
     <configuration name="ConfigScreen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.codebind.ConfigScreen" />
 
@@ -225,12 +237,16 @@
     </configuration>
     <recent_temporary>
       <list>
+<<<<<<< Updated upstream
 
         <item itemvalue="Application.ConfigScreen" />
 
         <item itemvalue="Application.ConfigurationScreen1" />
 
+=======
+>>>>>>> Stashed changes
         <item itemvalue="Application.SpaceTrade" />
+        <item itemvalue="Application.ConfigScreen" />
       </list>
     </recent_temporary>
   </component>
@@ -257,6 +273,7 @@
       <workItem from="1569020580731" duration="1204000" />
       <workItem from="1569022356771" duration="1391000" />
       <workItem from="1569085047748" duration="6471000" />
+      <workItem from="1569161432299" duration="2617000" />
     </task>
     <servers />
   </component>
