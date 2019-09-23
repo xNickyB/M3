@@ -2,12 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9efee21-ccb2-4c0d-bb4b-dd1f2a775b1f" name="Default Changelist" comment="">
+<<<<<<< Updated upstream
       <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/com/codebind/ConfigScreen.form" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/com/codebind/ConfigScreen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/M3/com/codebind/SpaceTrade.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/M3/com/codebind/SpaceTrade.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/codebind/SpaceTrade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/codebind/SpaceTrade.java" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/codebind/ConfigurationScreen1.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/codebind/ConfigurationScreen1.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/codebind/ConfigurationScreen1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/codebind/ConfigurationScreen1.java" afterDir="false" />
+>>>>>>> Stashed changes
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,7 +35,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+<<<<<<< Updated upstream
   <component name="ProjectId" id="1R7aQoPsYyBr8drkvEivanQsRcD" />
+=======
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="676" />
+    <option name="width" value="697" />
+    <option name="height" value="735" />
+  </component>
+>>>>>>> Stashed changes
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="4" />
@@ -49,9 +70,15 @@
       </list>
     </option>
   </component>
+<<<<<<< Updated upstream
   <component name="RunManager" selected="Application.ConfigScreen">
     <configuration name="ConfigScreen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.codebind.ConfigScreen" />
+=======
+  <component name="RunManager" selected="Application.ConfigurationScreen1">
+    <configuration name="ConfigurationScreen1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codebind.ConfigurationScreen1" />
+>>>>>>> Stashed changes
       <module name="M3" />
       <extension name="coverage">
         <pattern>
@@ -78,10 +105,24 @@
     </configuration>
     <recent_temporary>
       <list>
+<<<<<<< Updated upstream
         <item itemvalue="Application.ConfigScreen" />
+=======
+        <item itemvalue="Application.ConfigurationScreen1" />
+>>>>>>> Stashed changes
         <item itemvalue="Application.SpaceTrade" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand />
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -99,17 +140,24 @@
     </task>
     <servers />
   </component>
+<<<<<<< Updated upstream
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+=======
+>>>>>>> Stashed changes
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
+<<<<<<< Updated upstream
             <State>
               <option name="COLUMN_ORDER" />
             </State>
+=======
+            <State />
+>>>>>>> Stashed changes
           </value>
         </entry>
       </map>
