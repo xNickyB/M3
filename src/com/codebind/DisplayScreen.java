@@ -41,6 +41,7 @@ class DisplayScreen {
     protected JLabel profile;
 
     public DisplayScreen() {
+        JTextArea jt = new JTextArea("Your " + name + " is name. You have chosen skill level and these skill selections.");
 
     }
 
